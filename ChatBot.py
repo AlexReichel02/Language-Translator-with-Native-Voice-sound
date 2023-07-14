@@ -5,7 +5,7 @@ from gtts import gTTS
 from playsound import playsound
 from deep_translator import GoogleTranslator
 import os
-openai.api_key = "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"
+openai.api_key = ""
 def playSound():
      translation = T.get("1.0","end-1c")
      language = voiceChoice.get()
